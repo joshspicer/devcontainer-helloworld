@@ -1,0 +1,13 @@
+{
+  "features": [
+    {
+      "id": "joshspicer/helloworld",
+      "name": "Josh's Hello World",
+      "type": "option",
+      "default": false,
+      "buildArg": "_JOSHSPICER_DEVCONTAINER_INSTALL_HELLO_WORLD",
+      "include": ["ubuntu"]
+    }
+  ],
+  "UNIQUE_PREFIX": "_JOSHSPICER_DEVCONTAINER"
+}
