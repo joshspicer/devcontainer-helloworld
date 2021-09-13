@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_JOSHSPICER_DEVCONTAINER_INSTALL_HELLOWORLD=${_JOSHSPICER_DEVCONTAINER_INSTALL_HELLOWORLD:-undefined}
+LANG=${_JOSHSPICER_DEVCONTAINER_INSTALL_HELLOWORLD:-undefined}
 HAS_COLOR=${HAS_COLOR:-true}
 
 tee /usr/hello.sh > /dev/null \
@@ -26,4 +26,4 @@ sleep 3
 EOF
 
 chmod +x /usr/hello.sh
-echo '/usr/hello.sh &' >> ~/.bashrc
+sudo cat '/usr/hello.sh' > /usr/local/bin/hello
