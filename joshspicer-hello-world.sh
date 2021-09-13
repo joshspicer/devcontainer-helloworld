@@ -22,7 +22,6 @@ case "$LANG" in
                 echo -n -e "Beep Boop"
 esac
 echo -e "\${NC}"
-sleep 3
 EOF
 
 chmod +x /usr/hello.sh
