@@ -26,3 +26,4 @@ EOF
 
 chmod +x /usr/hello.sh
 sudo cat '/usr/hello.sh' > /usr/local/bin/hello
+sudo chmod +x /usr/local/bin/hello
