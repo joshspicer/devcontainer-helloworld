@@ -4,7 +4,7 @@
       "id": "joshspicer/helloworld",
       "name": "Josh's Hello World",
       "type": "choice",
-			"values": [ "english", "italian" ],
+      "values": [ "english", "italian" ],
       "default": false,
       "buildArg": "_JOSHSPICER_DEVCONTAINER_INSTALL_HELLOWORLD",
       "include": ["ubuntu"]
