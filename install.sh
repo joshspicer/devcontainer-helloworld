@@ -1,7 +1,12 @@
 #!/bin/bash
+set -e
 
-LANG=${_JOSHSPICER_DEVCONTAINER_INSTALL_HELLOWORLD:-undefined}
-HAS_COLOR=${HAS_COLOR:-true}
+set -a
+. /tmp/build-features/features.env
+set +a
+
+LANG=${_JOSHSPICER_DEVCONTAINER_HELLOWORLD_LANG:-undefined}
+HAS_COLOR=${_JOSHSPICER_DEVCONTAINER_HELLOWORLD_HAS_COLOR:-true}
 
 tee /usr/hello.sh > /dev/null \
 << EOF
