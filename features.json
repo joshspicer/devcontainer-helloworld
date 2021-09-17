@@ -6,7 +6,7 @@
       "type": "choice",
       "values": [ "english", "italian" ],
       "default": false,
-      "buildArg": "_JOSHSPICER_DEVCONTAINER_INSTALL_HELLOWORLD",
+      "buildArg": "_JOSHSPICER_DEVCONTAINER_HELLOWORLD_LANG",
       "include": ["ubuntu"]
     }
   ],
