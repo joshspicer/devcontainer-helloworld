@@ -2,7 +2,7 @@
 set -e
 
 set -a
-. /tmp/build-features/features.env
+. ./features.env
 set +a
 
 LANG=${_JOSHSPICER_DEVCONTAINER_HELLOWORLD_LANG:-undefined}
